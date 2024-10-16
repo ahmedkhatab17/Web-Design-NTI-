@@ -1,0 +1,324 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#contaner{
+    padding:  0 10%;
+    text-align: center;
+}
+#contaner p{
+    color: gray;
+    font-size: 14px;
+    margin: 30px auto;
+    text-align: center;
+}
+.under i{
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 50%;
+    border: 2px solid #ff8b38;
+    color: #ff8b38;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.under{
+    overflow: hidden;
+}
+.cleft{
+    width: 30%;
+    text-align: center;
+    padding:  40px 0;
+    float: left;
+}
+.ccenter{
+    width: 30%;
+    text-align: center;
+    padding:  40px 0;
+    float: left;
+    margin: 0 5%;
+}
+.cright{
+    width: 30%;
+    text-align: center;
+    padding:  40px 0;
+    float: left;
+}
+.top{
+    text-align: center;
+}
+.top h2 {
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    color: #212121;
+}
+.top hr{
+    width: 5%;
+    background-color: #ff8b38;
+    height: 3px;
+    margin: 15px auto;
+    border: none;
+}
+#pricing{
+    text-align: center;
+    background-color: #f3f3f3;
+    overflow: hidden;
+    padding: 50px 20px;
+}
+.cards{
+    width: 100%;
+    margin: 5%;
+    overflow: hidden;
+    padding: 30px;
+}
+.card{
+    float: left;
+    width: 27%;
+}
+.card p{
+    padding: 0 auto;
+    background-color: white;
+}
+.card{
+    background-color: #fff;
+    border: 1px solid #ddd;
+    overflow: hidden;
+    float: left;
+}
+.cards h3 {
+    background-color: #424242;
+    color: #fff;
+    padding: 15px 0;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 1px solid white;
+    margin: 0;
+}
+.cards h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+.card h1 span {
+    font-size: 28px;
+    vertical-align: bottom;
+}
+.cards h4 {
+    color: gray;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+.up{
+    background-color: #424242;
+    color: white;
+    width: 100%;
+    border-bottom: 5px solid #ff8b38;
+}
+.p {
+    background-color: #ff8b38;
+    color: #fff;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.cards p{
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #333;
+    padding: 30px;
+    border-bottom: 1px solid #ddd;
+    padding: 20px;
+}
+.center_c{
+    width: 27%;
+    position: relative;
+    bottom: 30px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    overflow: hidden;
+    float: left;
+    margin: auto 5%;
+}
+#saying{
+    padding: 30px;
+}
+#saying .s_under{
+    padding: 30px;
+    box-sizing: border-box;
+    text-align: center;
+    overflow: hidden;
+}
+#saying .holdar{
+    text-align: center;
+    float: left;
+    width: 30%;
+    background-color: #ffffff;
+    padding: 0 20px;
+    text-align: left;
+    position: relative;
+}
+.holdar .chat div{
+    background-color: #f5f5f5;
+    font: 14px ;
+    color: #86878b;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 40px auto;
+    position: relative;
+}
+.chat div .tri{
+    display: inline-block;
+    border: 20px solid transparent;
+    border-top-color: #f5f5f5;
+    position: absolute;
+    top: 100%;
+    left: 5%;
+}
+.holdar .info{
+    box-sizing: border-box;
+    align-items: center;
+    padding: 0 20px;
+}
+.holdar .info img{
+    width: 60px;
+    float: left;
+    height: 60px;
+    border-radius: 50%;
+    margin: 0 20px;
+}
+.holdar .info h3{
+    font-size: 18px;
+    color: #333333;
+    margin: 5px;
+    margin-top: 15px;
+}
+.holdar .info span{
+    font-size: 14px;
+    color: #888888;
+}
+#stylish{
+    background-image: url(https://freetemplates.pro/demo/axit/images/news.jpg);
+    box-sizing: border-box;
+    color: white;
+    background-color: gray;
+    height: 100%;
+    background-size: 100% 100%;
+}
+#stylish h2{
+    color: white;
+}
+#stylish hr{
+    color: white;
+    background-color: white;
+}
+#stylish .top{
+    height: 100%;
+    padding: 100px;
+    background-color: rgba(0,0,0,0.2);
+}
+#stylish button{
+    background-color: transparent;
+    padding: 10px 30px;
+    margin-top: 30px;
+    color: #fff;
+    border: 2px solid white;
+    font-size: 15px;
+}
+#contact{
+    background-color: white;
+    padding: 70px 0;
+    position: relative;
+    box-sizing: border-box;
+}
+#contact .top{
+    text-align: center;
+    margin-bottom: 40px;
+}
+#contact .top h2{
+    font-size: 36px;
+    color: #212121;
+}
+#contact .top hr{
+    width: 5%;
+    background-color: #ff8b38;
+    height: 3px;
+    margin: 15px auto;
+    border: none;
+}
+#contact .top p{
+    font-size: 16px;
+    color: #888888;
+}
+#contact form {
+    width: 60%;
+    margin: 50px auto;
+    text-align: center;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+#contact input{
+    padding: 15px;
+    border: none;
+    border-bottom: 1px solid #e5e5e5;
+    font-size: 14px;
+    color: #555555;
+    background-color: #ffffff;
+}
+#contact textarea{
+    padding: 15px;
+    height: 150px;
+    border: none;
+    border-bottom: 1px solid #e5e5e5;
+}
+#contact button{
+    background-color: #ff8b38;
+    color: #ffffff;
+    padding: 15px 30px;
+    border: none;
+    position: absolute;
+    left: 43.5%;
+    border-radius: 4px;
+    font-size: 16px;
+}
+#footer{
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+#footer .container{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+#footer .fsocial{
+    margin: 0 0 10px;
+}
+#footer i{
+    padding: 0 10px;
+    font-size: 20px;
+}
+#footer p , a{
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.50);
+    margin: 5px 0;
+    text-decoration: none;
+}
+.fleft{
+    width: 45%;
+    float: left;
+}
+.fright{
+    width: 50%;
+    float: left;
+}
+
+
+
+
+

@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.one{
+    float: left;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+.two{
+    float: right;
+    height: 100px;
+    width: 100px;
+    background-color: green;
+}
+.three{
+    float: left;
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
+.first{
+    background-color: gray;
+    padding: 15px;
+    overflow: hidden;
+}
+.left{
+    float: left;
+    width:30% ;
+}
+.center{
+    float: left;
+    width: 30%;
+    padding: 30px;
+}
+.right{
+    float: right;
+    width: 30%;
+}
+section{
+    background-color: gray;
+    overflow: hidden;
+    padding: 50px;
+    margin: 50px;
+
+}

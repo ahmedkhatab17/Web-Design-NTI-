@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#tabs{
+    background-color: rgb(241, 241, 241);
+    padding: 50px;
+}
+.tleft{
+    width: 20%;
+    display: inline-block;
+    padding: 4%;
+    margin: 10px;
+}
+.tleft button{
+    width: 100%;
+    background-color: orange;
+    border: 0;
+    padding: 35px 25px;
+    margin-bottom: 2px;
+    color: white;
+}
+.tcenter{
+    width: 40%;
+    display: inline-block;
+}
+.tcenter p{
+    font-size: 15px;
+    margin: 10px 0;
+    color: gray;
+    width: 80%;
+}
+.tcenter h3{
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.tcenter button{
+    background-color: orange;
+    border: 0;
+    padding: 15px 30px;
+    margin-top: 30px;
+    color: white;
+}
+.tright{
+    display: inline-block;
+    padding: 5%;
+}
+
+#title{
+    padding: 5%;
+    background-color: rgb(255, 255, 255);
+    margin: 20px 0;
+    overflow: hidden;
+}
+.sleft{
+    width: 40%;
+    float: left;
+}
+.sleft img{
+    width: 100%;
+}
+.sright{
+    width: 50%;
+    float: right;
+}
+.sright hr{
+    width: 10%;
+    background-color: orange;
+    height: 3px;
+    margin: 20px 0px;
+    border: none;
+    border-radius: 20%;
+}
+article{
+    margin: 25px 0;
+    overflow: hidden;
+}
+article i{
+    color: orange;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 50%;
+    float: left;
+}
+article div{
+    width: 90%;
+    float: right;
+}
+article div p{
+    font-size: 15px;
+}
+#standar{
+    padding: 5%;
+    padding-bottom: 0;
+    margin: 40px 0;
+    overflow: hidden;
+    background-color: rgba(212, 198, 198, 0.178);
+}
+.stleft{
+    width: 40%;
+    padding: 15px;
+    margin: 0px 50px;
+    float: left;
+}
+.stleft p{
+    padding: 10px;
+    color: gray;
+    font-size: 15px;
+}
+.stleft hr{
+    width: 15%;
+    background-color: orange;
+    height: 3px;
+    margin: 20px 0px;
+    border: none;
+    border-radius: 20%;
+}
+.stright{
+    float: right;
+    width: 40%;
+}
+.stright img{
+    width: 100%;
+}
+
+
+

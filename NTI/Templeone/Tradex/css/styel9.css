@@ -1,0 +1,295 @@
+.carousel-indicators{
+    bottom: 35%;
+    left: 80%;
+}
+.carousel-indicators [data-bs-target]{
+    width: 8px;
+    height: 8px;
+}
+.carousel-caption{
+    bottom: 50%;
+}
+.carousel-caption .btn-outline-light{
+    color: white;
+    border-color: white;
+}
+.carousel-caption .btn-outline-light:hover{
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+}
+.carousel-item h1{
+    font-size: 60px;
+}
+.carousel-item p{
+    font-size: 25px;
+}
+.about h2 {
+    position: relative;
+}
+.about h2::before{
+    content: "";
+    position: absolute;
+    top: 58%;
+    left: -75px;
+    width: 70px;
+    height: 3px;
+    background-color: #007bff;
+}
+.about h2::after{
+    content: "";
+    position: absolute;
+    top: 58%;
+    right: -75px;
+    width: 70px;
+    height: 3px;
+    background-color: #007bff;
+}
+.about span::before{
+    content: "";
+    position: absolute;
+    top: 38%;
+    left: -35px;
+    width: 30px;
+    height: 3px;
+    background-color: #007bff;
+}
+.about span::after{
+    content: "";
+    position: absolute;
+    top: 38%;
+    right: -35px;
+    width: 30px;
+    height: 3px;
+    background-color: #007bff;
+}
+.left{
+    position: relative;
+}
+.left p{
+    font-size: 14px;
+    line-height: 15px;
+}
+.left-text{
+    position: relative;
+    background-color: #fff;
+}
+.left-text li:hover{
+    color: #007bff;
+}
+@media(min-width:768px){
+    .left-text{
+        position: absolute;
+        left: 60px;
+        top:20px
+    }
+}
+.services{
+    background-image: url(http://dazzlersoftware.com/testwp/munix-pro/wp-content/themes/munix-pro/img/service-bg.jpg);
+    box-sizing: border-box;
+    color: white;
+    height: 100%;
+    background-size: 100% 100%;
+
+}
+.carousel{
+    box-sizing: border-box;
+    color: white;
+    height: 100%;
+    background-size: 100% 100%;
+}
+.services .services-card{
+    height: 100%;
+    padding: 100px;
+
+}
+.services .parent{
+    position: relative;
+    overflow: hidden;
+}
+.services .child{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 100%;
+    transition: all 0.5s;
+}
+.services .parent:hover .child{
+    top: 0;
+
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.788);
+
+}
+.our-work .child{
+    left: 5%;
+    right: 5%;
+    bottom: 5%;
+    width: 90%;
+    transition: all 0.5s;
+    transform: scale(0);
+    opacity: 90%;
+}
+.our-work .parent:hover .child{
+    transform:  scale(1);
+}
+.our-work .parent:hover img{
+    box-shadow:  0 0 3px 3px gray;
+}
+.our-work a{
+    color: #000;
+
+}
+.our-work a:hover{
+    color: #007bff;
+
+}
+.creative .services-card{
+    height: 100%;
+    padding: 100px;
+
+}
+.creative .parent{
+    position: relative;
+    overflow: hidden;
+}
+.creative .child{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    text-transform: capitalize;
+    top: 82%;
+    transition: all 0.5s;
+}
+.creative .parent:hover .child{
+    top: 40%;
+}
+.info{
+    border-bottom: 3px solid black
+}
+.creative .parent:hover .child .info{
+    border-bottom: none;
+}
+ul li{
+    text-decoration: none;
+
+}
+.btn-group .btn{
+    border-radius:1.5rem;
+}
+
+
+.progress {
+    height: 2px;
+}
+.blog .card img,.blog-social,.progress-bar,.arw{
+    transition: all 0.5s;
+}
+.progress-bar{
+    width: 25%;
+    color: #007bff;
+}
+.blog .card:hover .progress-bar{
+    width: 100%;
+    color: #007bff;
+}
+.blog-social{
+    background-color: #000;
+}
+.blog .card:hover .blog-social {
+    background-color: rgb(20, 120, 255);
+}
+.blog .card h5:hover {
+    color: rgb(20, 120, 255);
+}
+
+.blog-meta{
+    font-size: 12px;
+}
+.blog .card:hover img{
+    scale: 1.1;
+    rotate: 1.8deg;
+}
+.arow:hover .arw{
+    translate: 10px;
+}
+
+
+.all-title h2 {
+    position: relative;
+}
+.all-title h2::after{
+    content: "";
+    position: absolute;
+    top: 58%;
+    right: -75px;
+    width: 70px;
+    height: 3px;
+    background-color: #007bff;
+}
+.all-title span::after{
+    content: "";
+    position: absolute;
+    top: 38%;
+    right: -35px;
+    width: 30px;
+    height: 3px;
+    background-color: #007bff;
+}
+.partner-img img{
+    max-width: 100%;
+    height: auto;
+}
+.partner-img{
+    text-align: center;
+}
+.full-grid {
+    width: 75%;
+ }
+.partner-grid{
+    
+    padding: 30px;
+    text-align: center;
+}
+.partner-grid img{
+    max-width: 100%;
+    height: auto;
+}
+@media (max-width: 992px) {
+    .full-grid {
+       width: 100%;
+       padding-left: 0;
+    }
+}
+
+.footer{
+    background: #222;
+}
+.footer .address i{
+    font-size: 18px;
+    padding-top: 5px;
+    color: #f8f9fa;
+}
+.footer .posts-list .card-title{
+    font-size: 15px;
+}
+.footer .tagcloud a:hover{
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+}
+.footer .foot-bottom{
+    padding-top: 15px;
+    box-shadow: 0 -10px 6px rgba(0, 0, 0, 0.271);
+}
+.footer .foot-bottom a{
+    font-size: 14px;
+    text-decoration: none;
+}
+.footer .foot-bottom a:hover{
+    color: #fff;
+}
+
